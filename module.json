@@ -1,0 +1,93 @@
+{
+  "id": "dawn-of-flame",
+  "title": "SFRPG AP4 Dawn of Flame Content",
+  "description": "Content for Dawn of Flame AP",
+  "authors": [
+    {
+      "name": "bob"
+    }
+  ],
+  "version": "1.14.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": [
+
+  ],
+  "packFolders": [
+    {
+      "name": "Dawn of Flame V14",
+      "packs": [
+        "dawn-of-flame"
+      ],
+      "color": "#ff7744"
+    }
+  ],
+  "packs": [
+    {
+      "label": "Dawn of Flame V14",
+      "type": "Adventure",
+      "name": "dawn-of-flame",
+      "path": "packs/dawn-of-flame",
+      "system": "sfrpg",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {},
+      "package": "world",
+      "id": "world.dawn-of-flame",
+      "packageType": "world",
+      "packageName": "Dawn of Flame",
+      "index": [],
+      "folders": [],
+      "banner": "modules/dawn-of-flame/images/dawn-of-flame-02.webp"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "sfrpg",
+        "type": "system",
+        "manifest": "",
+        "compatibility": {
+          "verified": "0.0.0"
+        }
+      }
+    ],
+    "requires": [],
+    "recommends": [
+      {
+        "id": "easy-regions",
+        "type": "module",
+        "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://github.com/nzlbob/dawn-of-flame",
+  "manifest": "https://raw.githubusercontent.com/nzlbob/dawn-of-flame/refs/heads/main/module.json",
+  "download": "https://github.com/nzlbob/dawn-of-flame/archive/refs/heads/main.zip",
+  "media": [
+    {
+      "type": "thumbnail",
+      "url": "modules/dawn-of-flame/images/dawn-of-flame.webp",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "setup",
+      "url": "modules/dawn-of-flame/images/dawn-of-flame.webp",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/nzlbob/dawn-of-flame/main/images/dawn-of-flame.webp",
+      "caption": "Fly Free or Die",
+      "loop": false,
+      "flags": {}
+    }
+  ]
+}

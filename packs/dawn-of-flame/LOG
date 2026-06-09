@@ -1,0 +1,5 @@
+2026/06/09-17:51:53.004 15cc Recovering log #262
+2026/06/09-17:51:53.024 15cc Level-0 table #266: started
+2026/06/09-17:51:53.137 15cc Level-0 table #266: 895250 bytes OK
+2026/06/09-17:51:53.301 15cc Delete type=0 #262
+2026/06/09-17:51:53.303 15cc Delete type=3 #261
